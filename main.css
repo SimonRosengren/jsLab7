@@ -1,0 +1,84 @@
+body{
+    background-image: url("https://c2.staticflickr.com/4/3773/33150168315_567e90b9ed_k.jpg"); 
+    background-size: 100vw 100vh;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+#search-parent{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    margin-top: 20%;
+
+}
+
+section{
+    text-align: center;
+}
+
+#search-form input[type="text"]
+{
+    font-size: 36px;
+    width: 20%;
+    border:none;
+
+}
+#result{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin:60px 60px;
+}
+
+#result > div{
+    max-width: 20%;
+}
+
+#info-box{
+    background-color: white;
+    border: none;
+    opacity: 0.8;
+    color: black;
+    padding: 15px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 150px 600px;
+    border-radius: 20px;
+}
+
+.movie-item{
+    color: white;
+    box-shadow: black;
+}
+.artist-item{
+    color: white;
+    box-shadow: black;
+}
+
+#search-form button[type=submit] {
+    background-color: #2c2c54; 
+    border: none;
+    color: white;
+    padding: 10px 2px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 31px;
+    width: 10%;
+}
+
+#spotify-login{
+    background-color: #1db954;
+    border: none;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    border-radius: 20px;
+}
